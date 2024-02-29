@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    width: 100%;
+    height: 100%;
+    color: white;
+   
+   
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dark{
+    background-color:black
+   
+}
+.text{
+    width: 400px;
+
+  
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.text > p{
+    background-color: rgba(78, 75, 75, 0.199);
+    padding: 20px;
+    border-radius: 3px ;
+}
+.bodytextdarktheme{
+    color: white;
+}
+.bodytextlighttheme{
+    color: black;
+}
+.button{
+  
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.button > button {
+    all: unset;
+    border: 1px solid gray;
+    
+    padding: 5px 15px;
+    transition: all .5s;
+}
+.button > button:hover{
+    border: 1px solid yellow;
+    color: gray;
+    border-radius: 3px;
+}
